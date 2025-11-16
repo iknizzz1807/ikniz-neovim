@@ -24,6 +24,7 @@ opt.clipboard = 'unnamedplus' -- use system clipboard
 opt.swapfile = false -- don't create swap files
 opt.undofile = true -- persistent undo
 opt.updatetime = 250 -- faster completion
+opt.fixendofline = true --always has end line
 
 -- [[ Auto Save ]]
 vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
